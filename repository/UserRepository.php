@@ -15,7 +15,7 @@ class UserRepository
             die("query field");
         }
         echo "saved";
-        header("Location: index.php");
+        header("Location: ../index.php");
     }
 }
 ?>
